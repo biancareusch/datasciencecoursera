@@ -1,3 +1,5 @@
-print("This file was created in RStudio")
-
-print("blahblha")
+ x <- 10
+ y <- 20
+ z <- 30
+ 
+ print(x)
