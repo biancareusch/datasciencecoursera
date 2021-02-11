@@ -18,3 +18,15 @@
  ##explicit coercion
  as.numeric(x) ##turns x into numeric objects
  as.character(x) ## turns x into characters
+ 
+ ##Lists can contain different data types
+ f <- list(1,"a",TRUE, 1 + 4i)  
+ 
+ ##matrices( vectors with dimension attributes)
+ m <- matrix(1:6,nrow = 2,ncol = 3)
+ m ## shows matrix is initialized and filled by columns, and two rows, 3 cols
+ dim(m) ## shows dimensions
+ attributes(m) ## has dimension attribute
+ dim(m) <- c(2,5) ## assignes the vector a matrix with 2 rows and 5 cols
+ 
+ 
