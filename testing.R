@@ -38,7 +38,19 @@
  xx <- factor(c("yes","yes","yes","no","no"),
               levels= c("yes","no"))
  
-
+## Missing Values is.na(), is.nan() testing for NaN/missing values, Na is an integer class
+ ##NaN == Na but Na != NaN
+ 
+##Data Frames are used to store tabular data, special type of list
+  ## each element has the same length and is thought of as a column
+  ## length of each element of the list is the number of rows can store different classes of objects in each cols( like lists)
+  ## attributes: row.names
+ read.table()
+ read.csv() ## creates Data Frames
+ data.matrix() ## convert to matrix
+ yy <- data.frame(foo = 1:4, bar = c(T,T,T,F)) ## foo = 1st col, bar = 2nd col)
+ nrow(yy) ## amount of rows
+ ncol(yy) ## amount of cols
  
  
  
