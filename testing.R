@@ -56,6 +56,10 @@
  names(yy) ## returns name of elements
  names(yy) <- c("foo","bar","norf") ##assigns names to each element
  
+ x <- list(a = 1, b = 2, c = 3) ##assign names to list elements
+ 
+ m <- matrix(1:4,nrow = 2, ncol = 2)
+ dimnames(m) <- list(c("a","b"),c("c","d")) ##assign names to cols and rows
  
  
  
