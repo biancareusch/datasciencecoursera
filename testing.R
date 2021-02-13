@@ -27,6 +27,21 @@
  m ## shows matrix is initialized and filled by columns, and two rows, 3 cols
  dim(m) ## shows dimensions
  attributes(m) ## has dimension attribute
- dim(m) <- c(2,5) ## assignes the vector a matrix with 2 rows and 5 cols
+ dim(m) <- c(2,3) ## assignes the vector a matrix with 2 rows and 5 cols
+ 
+ ##factor represents categorical data/ ordered and unordered
+ ##or integer vector where each integer has a label lm() glm()
+ xx <- factor(c("yes","yes","yes","no","no"))
+ table(xx)
+ unclass(xx) ## it'll bring it down to integer vector and return numbers
+ attr(,"levels") ##returns "no" "yes", set levels with levels arg
+ xx <- factor(c("yes","yes","yes","no","no"),
+              levels= c("yes","no"))
+ 
+
+ 
+ 
+ 
+ 
  
  
