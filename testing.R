@@ -52,6 +52,10 @@
  nrow(yy) ## amount of rows
  ncol(yy) ## amount of cols
  
+ ##R objects can have name attributes, for readable code and self-describing objects
+ names(yy) ## returns name of elements
+ names(yy) <- c("foo","bar","norf") ##assigns names to each element
+ 
  
  
  
