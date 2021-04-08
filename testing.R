@@ -61,7 +61,9 @@
  m <- matrix(1:4,nrow = 2, ncol = 2)
  dimnames(m) <- list(c("a","b"),c("c","d")) ##assign names to cols and rows
  
- 
- 
+## Reading in larger datasets
+##  initial <- read.table("datatable.txt", nrows = 100) 
+##  classes <- sapply(initial, class)
+##  tabAll <- read.table("datatable.txt", colClasses = classes)
  
  
